@@ -1,6 +1,6 @@
 <?php
 /*
- * Moonify Miner PHP SDK API
+ * Moonify Miner PHP SDK 
  */
 
 class Moonify {
