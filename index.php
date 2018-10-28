@@ -24,3 +24,7 @@ if($moonify->error){
     echo '<script type="text/javascript">Moonify.set({tokenID : "'.$tokenID.'" });</script>';
 }
 ?>
+
+<script type="text/javascript">        
+    Moonify.start();
+</script>
