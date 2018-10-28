@@ -5,7 +5,7 @@ $moonify = new Moonify(); //declare a new moonify instance
 
 $moonify->set("serviceID","3lgIBtTCTuDIUZNu8Xy5xnncGPYxH7Xzf5w_ICJW-iaras8kzkCE3pzMDcxv1jgYpr8E5_WHqLfVz5zNKJj7u3N3sfG25NrgeIeV2HiRo1Pk21Ee2CcvzOaetxScR8k2"); //set your private ID as authentication
 
-$session​ ​=​ $moonify->session([​'userID'​=>​'MyUserID'​])->open(); //open a monetization session
+$session​ ​=​ $moonify->session(['userID'​=>​'MyUserID'​])->open(); //open a monetization session
 
 // First method :
 if($moonify->error){
@@ -23,3 +23,6 @@ if($moonify->error){
     echo '<script type="text/javascript">Moonify.set({tokenID : "'.$tokenID.'" });</script>';
 }
 ?>
+<script type="text/javascript">		
+Moonify.start();
+</script>
